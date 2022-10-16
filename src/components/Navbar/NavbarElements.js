@@ -34,7 +34,7 @@ color: black;
 	display: block;
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	transform: translate(-100%, 75%);
 	font-size: 1.8rem;
 	cursor: pointer;
