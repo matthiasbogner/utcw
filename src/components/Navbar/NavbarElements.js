@@ -32,7 +32,7 @@ display: none;
 color: black;
 @media screen and (max-width: 768px) {
 	display: block;
-	position: absolute;
+	position: relative;
 	top: 0;
     left: 6;
 	transform: translate(-100%, 75%);
