@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Teams = () => {
+const Training = () => {
 return (
 	<div
 	style={{
@@ -15,4 +15,4 @@ return (
 );
 };
 
-export default Teams;
+export default Training;

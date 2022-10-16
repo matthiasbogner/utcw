@@ -15,22 +15,22 @@ return (
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/about' activeStyle>
+		<NavLink to='/aktuelles' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/events' activeStyle>
+		<NavLink to='/platzreservierung' activeStyle>
 			Events
 		</NavLink>
-		<NavLink to='/annual' activeStyle>
+		<NavLink to='/mitgliedschaft' activeStyle>
 			Annual Report
 		</NavLink>
-		<NavLink to='/team' activeStyle>
+		<NavLink to='/training' activeStyle>
 			Teams
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
+		<NavLink to='/mannschaftsmeisterschaft' activeStyle>
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/ueber-uns' activeStyle>
 			Sign Up
 		</NavLink>
 		{/* Second Nav */}

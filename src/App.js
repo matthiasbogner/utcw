@@ -2,26 +2,24 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Events from './pages/events';
-import AnnualReport from './pages/annual';
-import Teams from './pages/team';
-import Blogs from './pages/blog';
-import SignUp from './pages/signup';
+import Aktuelles from './pages';
+import Platzreservierung from './pages/platzreservierung';
+import Mitgliedschaft from './pages/mitgliedschaft';
+import Training from './pages/training';
+import Mannschaftsmeisterschaft from './pages/mannschaftsmeisterschaft';
+import UeberUns from './pages/ueber-uns';
 
 function App() {
 return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route path='/' exact component={Home} />
-		<Route path='/about' component={About} />
-		<Route path='/events' component={Events} />
-		<Route path='/annual' component={AnnualReport} />
-		<Route path='/team' component={Teams} />
-		<Route path='/blogs' component={Blogs} />
-		<Route path='/sign-up' component={SignUp} />
+		<Route path='/' exact component={Aktuelles} />
+		<Route path='/platzreservierung' component={Platzreservierung} />
+		<Route path='/mitgliedschaft' component={Mitgliedschaft} />
+		<Route path='/training' component={Training} />
+		<Route path='/mannschaftsmeisterschaft' component={Mannschaftsmeisterschaft} />
+		<Route path='/ueber-uns' component={UeberUns} />
 	</Routes>
 	</Router>
 );
