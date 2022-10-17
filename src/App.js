@@ -15,7 +15,7 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route path='/' exact component={Aktuelles} />
+		<Route path='/' exact element={<Aktuelles/>} />
 		<Route path='/platzreservierung' component={Platzreservierung} />
 		<Route path='/mitgliedschaft' component={Mitgliedschaft} />
 		<Route path='/training' component={Training} />
