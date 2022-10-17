@@ -14,7 +14,7 @@ function App() {
 return (
 	<Router>
 	<Navbar />
-	<Routes>
+	<Switch>
 		<Route path='/' exact element={<Aktuelles/>} />
 		<Route path='/platzreservierung' component={Platzreservierung} />
 		<Route path='/mitgliedschaft' component={Mitgliedschaft} />
@@ -22,7 +22,7 @@ return (
 		<Route path='/mannschaftsmeisterschaft' component={Mannschaftsmeisterschaft} />
 		<Route path='/ueber-uns' component={UeberUns} />
 		<Route path='/kontakt' component={Kontakt} />
-	</Routes>
+	</Switch>
 	</Router>
 );
 }
