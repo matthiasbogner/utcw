@@ -33,6 +33,9 @@ return (
 		<NavLink to='/ueber-uns' activeStyle>
 			Über Uns
 		</NavLink>
+		<NavLink to='/kontakt' activeStyle>
+			Kontakt & Anfahrt
+		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>

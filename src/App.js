@@ -8,6 +8,7 @@ import Mitgliedschaft from './pages/mitgliedschaft';
 import Training from './pages/training';
 import Mannschaftsmeisterschaft from './pages/mannschaftsmeisterschaft';
 import UeberUns from './pages/ueber-uns';
+import Kontakt from './pages/kontakt';
 
 function App() {
 return (
@@ -20,6 +21,7 @@ return (
 		<Route path='/training' component={Training} />
 		<Route path='/mannschaftsmeisterschaft' component={Mannschaftsmeisterschaft} />
 		<Route path='/ueber-uns' component={UeberUns} />
+		<Route path='/kontakt' component={Kontakt} />
 	</Routes>
 	</Router>
 );
