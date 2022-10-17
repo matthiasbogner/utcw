@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 background: rgba(33, 67, 138, 0.973);
+color: black;
 height: 85px;
 display: flex;
 justify-content: space-between;
