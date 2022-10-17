@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import Aktuelles from './pages';
 import Platzreservierung from './pages/platzreservierung';
 import Mitgliedschaft from './pages/mitgliedschaft';
