@@ -16,7 +16,7 @@ z-index: 12;
 export const NavLink = styled(Link)`
 color: black;
 display: flex;
-align-items: center;
+align-items: left;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
